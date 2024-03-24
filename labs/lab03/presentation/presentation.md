@@ -52,30 +52,6 @@ header-includes:
 
 # Markdown.
 
-## Теоретические сведения
-
-1. Чтобы создать заголовок, используется знак ( # ), например:
-	- `# This is heading 1`
-	- `## This is heading 2`
-    - `### This is heading 3`
-    - `#### This is heading 4`
-
-2. Полужирный, курсивный, комбинированный шрифт:
-	- This text is `**bold**`
-	- This text is `*italic*`
-	- This is text is both `***bold and italic***`
-
-3. Цитирование:
-	- `>The thing`
-
-4. Списки:
-	- `- List item 1`
-	- `- List item 2`
-	- `- List item 3`
-
-5. Изображения и ссылки:
-	- `[link text](file-name.md)`
-	- `![Название изображения](xdef/name.jpg){#fig:001 width=70%}`
 
 ## Актуальность
 
