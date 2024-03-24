@@ -15,7 +15,7 @@ babel-lang: russian
 babel-otherlangs: english
 
 ## Formatting pdf
-toc: false
+toc: true
 toc-title: Содержание
 slide_level: 2
 aspectratio: 169
@@ -141,4 +141,5 @@ header-includes:
 
 - Был создан репозиторий на git, используя шаблон
 - Был настроен каталог курса
-- 
+- Опробованы некоторые команды по работе с репозиторием
+- Получен рабочий репозиторий, на котором можно размещать результаты своей деятельности

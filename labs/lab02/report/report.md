@@ -61,6 +61,7 @@ lolTitle: "Листинги"
 ## Misc options
 indent: true
 header-includes:
+  - \usepackage[utf8x]{inputenc}
   - \usepackage{indentfirst}
   - \usepackage{float} # keep figures where there are in the text
   - \floatplacement{figure}{H} # keep figures where there are in the text
@@ -252,7 +253,7 @@ header-includes:
 
 # Список литературы{.unnumbered}
 
-1. [Руководство к выполнению лабораторной работы №2](https://esystem.rudn.ru/mod/page/view.php?id=970819#org853ec93)
+1. Руководство к выполнению лабораторной работы №2
 
 ::: {#refs}
 :::
