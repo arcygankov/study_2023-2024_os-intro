@@ -89,12 +89,12 @@ header-includes:
 	- This is text is both `***bold and italic***`
 
 3. Цитирование:
-	- `>The thing
+	- `>The thing`
 
 4. Списки:
-	- - List item 1
-	- - List item 2
-	- - List item 3
+	- `- List item 1`
+	- `- List item 2`
+	- `- List item 3`
 
 5. Изображения и ссылки:
 	- `[link text](file-name.md)`
@@ -117,6 +117,10 @@ header-includes:
 4) Формирование вложенных неупорядоченных списков при ответе на контрольные вопросы (рис. @fig:004).
 
 ![вложенные списки](image/4.png){#fig:004 width=70%}
+
+4) создание других форматов (рис. @fig:005).
+
+![компиляция](image/5.png){#fig:005 width=70%}
 
 
 # Выводы
