@@ -62,7 +62,6 @@ lolTitle: "Листинги"
 indent: true
 header-includes:
   - \usepackage[utf8x]{inputenc}
-  - \usepackage[utf8]{inputenc}
   - \usepackage{indentfirst}
   - \usepackage{float} # keep figures where there are in the text
   - \floatplacement{figure}{H} # keep figures where there are in the text
@@ -125,7 +124,7 @@ header-includes:
 | `git checkout имя_ветки`       | Переключение на некоторую ветку                                                                                 |
 | `git push origin имя_ветки`       | Отправка изменений конкретной ветки в центральный репозиторий                                                                                 
 |
-| `git branch -D имя_ветки`       | Принудительное удаление локальной ветки                                                                                 |
+| `git branch -D имя_ветки`       | Принудительное удаление локальной ветки|                                                                                 
 | `git push origin :имя_ветки`       | Удаление ветки с центрального репозитория                                                                                 |
 
 
