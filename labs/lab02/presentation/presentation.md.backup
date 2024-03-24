@@ -15,7 +15,7 @@ babel-lang: russian
 babel-otherlangs: english
 
 ## Formatting pdf
-toc: true
+toc: false
 toc-title: Содержание
 slide_level: 2
 aspectratio: 169
