@@ -22,8 +22,7 @@ aspectratio: 169
 section-titles: true
 theme: metropolis
 header-includes:
- 	- \makeatletter
- 	- \makeatother
+
 ---
 
 # Информация
@@ -31,10 +30,9 @@ header-includes:
 ## Докладчик
 
 
-
   * Цыганков Александр Романович
   * Студент 4го курса, группа НПМБВ-02-20
-  * Компьютерные и информационные науки
+  * Прикладная математика
   * Российский университет дружбы народов
   * [Ссылка на репозиторий гитхаба arcygankov](https://github.com/arcygankov/study_2023-2024_os-intro)
 
