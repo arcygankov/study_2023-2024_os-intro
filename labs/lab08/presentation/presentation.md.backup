@@ -22,18 +22,14 @@ aspectratio: 169
 section-titles: true
 theme: metropolis
 header-includes:
- - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
- - '\makeatletter'
- - '\beamer@ignorenonframefalse'
- - '\makeatother'
+
 ---
 
 # Информация
 
 ## Докладчик
 
-:::::::::::::: {.columns align=center}
-::: {.column width="70%"}
+
 
   * Цыганков Александр Романович
   * Студент 4-го курса, группа НПМБВ-02-20
@@ -41,11 +37,7 @@ header-includes:
   * Российский университет дружбы народов
   * [Ссылка на репозиторий гитхаба arcygankov](https://github.com/arcygankov/study_2023-2024_os-intro)
 
-:::
-::: {.column width="30%"}
 
-:::
-::::::::::::::
 
 # Вводная часть
 
