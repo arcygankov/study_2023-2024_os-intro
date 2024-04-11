@@ -1,0 +1,5 @@
+echo "write a directory_"
+read dir
+echo "write type file_"
+read type
+find $dir -name "*$type" -type f | wc -l
