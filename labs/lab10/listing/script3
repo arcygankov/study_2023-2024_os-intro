@@ -1,0 +1,7 @@
+while getopts c:d opt
+do
+	case $opt in
+	     c)echo "create"; n="$OPTARG"; for i in $(seq 1 $n); do touch "$i.tmp"; done;;
+	     d)echo "del"; for i in $(find -name "*.tmp"); do rm $i; done;;
+	esac
+done

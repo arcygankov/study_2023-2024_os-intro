@@ -1,0 +1,16 @@
+RES=result
+SRC=lab10.c
+
+if [ "$SRC" -nt "$RES" ]
+then
+	echo "er"
+	g++ -o $RES $SRC
+fi
+
+./$RES $1
+
+case $? in
+	0) echo "member < 0";;
+	1) echo "member > 0";;
+	2) echo "member == 0";;
+esac

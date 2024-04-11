@@ -1,0 +1,5 @@
+echo "write a directory_"
+read dir
+
+find $dir -mtime -7 -mtime +0 -type f > a.txt
+tar -cf a.tar -T a.txt
