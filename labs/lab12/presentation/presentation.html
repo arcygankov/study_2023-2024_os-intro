@@ -1,0 +1,75 @@
+<h1 id="информация">Информация</h1>
+<h2 id="докладчик">Докладчик</h2>
+<div class="columns" data-align="center">
+<div class="column" style="width:70%;">
+<ul>
+<li>Цыганков Александр Романович</li>
+<li>Студент 4-го курса, группа НПМБВ-02-20</li>
+<li>Прикладная математика</li>
+<li>Российский университет дружбы народов</li>
+<li><a href="https://github.com/arcygankov/study_2023-2024_os-intro">Ссылка на репозиторий гитхаба arcygankov</a></li>
+</ul>
+</div><div class="column" style="width:30%;">
+
+</div>
+</div>
+<h1 id="вводная-часть">Вводная часть</h1>
+<h2 id="актуальность">Актуальность</h2>
+<ul>
+<li>Навыки разработки и отладки программ необходимы любому человеку, связанному с IT и техническими науками.</li>
+</ul>
+<h2 id="объект-и-предмет-исследования">Объект и предмет исследования</h2>
+<ul>
+<li>Командный процессор ОС UNIX</li>
+</ul>
+<h2 id="цели-и-задачи">Цели и задачи</h2>
+<ul>
+<li>Приобрести простейшие навыки разработки, анализа, тестирования и отладки приложений в ОС типа UNIX/Linux на примере создания на языке программирования С калькулятора с простейшими функциями.</li>
+</ul>
+<h1 id="выполнение-заданий.">Выполнение заданий.</h1>
+<h2 id="в-домашнем-каталоге-создайте-подкаталог-workoslab_prog.-рис.-fig001">В домашнем каталоге создайте подкаталог ~/work/os/lab_prog. (рис. <span class="citation" data-cites="fig:001">@fig:001</span>)</h2>
+<figure>
+<img src="image/1.png" alt="Создание каталога" id="fig:001" style="width:70.0%" /><figcaption>Создание каталога</figcaption>
+</figure>
+<h2 id="создайте-в-нём-файлы-calculate.h-calculate.c-main.c.-это-будет-примитивнейший-калькулятор-способный-складывать-вычитать-умножать-и-делить-возводить-число-в-степень-брать-квадратный-корень-вычислять-sin-cos-tan.-при-запуске-он-будет-запрашивать-первое-число-операцию-второе-число.-после-этого-программа-выведет-результат-и-остановится.-рис.-fig002-fig003-fig004.">Создайте в нём файлы: calculate.h, calculate.c, main.c. Это будет примитивнейший калькулятор, способный складывать, вычитать, умножать и делить, возводить число в степень, брать квадратный корень, вычислять sin, cos, tan. При запуске он будет запрашивать первое число, операцию, второе число. После этого программа выведет результат и остановится. (рис. <span class="citation" data-cites="fig:002">@fig:002</span>, <span class="citation" data-cites="fig:003">@fig:003</span>, <span class="citation" data-cites="fig:004">@fig:004</span>).</h2>
+<figure>
+<img src="image/2.png" alt="calculate.c" id="fig:002" style="width:70.0%" /><figcaption>calculate.c</figcaption>
+</figure>
+<figure>
+<img src="image/3.png" alt="calculate.h" id="fig:003" style="width:70.0%" /><figcaption>calculate.h</figcaption>
+</figure>
+<figure>
+<img src="image/4.png" alt="main.c" id="fig:004" style="width:70.0%" /><figcaption>main.c</figcaption>
+</figure>
+<h2 id="выполните-компиляцию-программы-посредством-gcc.-рис.-fig005">Выполните компиляцию программы посредством gcc. (рис. <span class="citation" data-cites="fig:005">@fig:005</span>)</h2>
+<figure>
+<img src="image/5.png" alt="Попытка компиляции" id="fig:005" style="width:70.0%" /><figcaption>Попытка компиляции</figcaption>
+</figure>
+<h2 id="при-необходимости-исправьте-синтаксические-ошибки-рис.-fig006">При необходимости исправьте синтаксические ошибки (рис. <span class="citation" data-cites="fig:006">@fig:006</span>)</h2>
+<figure>
+<img src="image/5.png" alt="main.c убрал &amp; перед Operation" id="fig:006" style="width:70.0%" /><figcaption>main.c убрал &amp; перед Operation</figcaption>
+</figure>
+<h2 id="создайте-makefile-рис.-fig007">Создайте Makefile (рис. <span class="citation" data-cites="fig:007">@fig:007</span>)</h2>
+<figure>
+<img src="image/6.png" alt="Компиляция" id="fig:007" style="width:70.0%" /><figcaption>Компиляция</figcaption>
+</figure>
+<h2 id="с-помощью-gdb-выполните-отладку-программы-calcul-перед-использованием-gdb-исправьте-makefile-рис.-fig008-fig009-fig010">С помощью gdb выполните отладку программы calcul (перед использованием gdb исправьте Makefile) (рис. <span class="citation" data-cites="fig:008">@fig:008</span>, <span class="citation" data-cites="fig:009">@fig:009</span>, <span class="citation" data-cites="fig:010">@fig:010</span>)</h2>
+<figure>
+<img src="image/8.png" alt="Запуск программы" id="fig:008" style="width:70.0%" /><figcaption>Запуск программы</figcaption>
+</figure>
+<figure>
+<img src="image/10.png" alt="Работа программы" id="fig:009" style="width:70.0%" /><figcaption>Работа программы</figcaption>
+</figure>
+<figure>
+<img src="image/11.png" alt="break, info, …" id="fig:010" style="width:70.0%" /><figcaption>break, info, …</figcaption>
+</figure>
+<h2 id="с-помощью-утилиты-splint-попробуйте-проанализировать-коды-файлов-calculate.c-и-main.c-рис.-fig011-fig012">С помощью утилиты splint попробуйте проанализировать коды файлов calculate.c и main.c (рис. <span class="citation" data-cites="fig:011">@fig:011</span>, <span class="citation" data-cites="fig:012">@fig:012</span>)</h2>
+<figure>
+<img src="image/12.png" alt="splint calculate.c" id="fig:011" style="width:70.0%" /><figcaption>splint calculate.c</figcaption>
+</figure>
+<figure>
+<img src="image/13.png" alt="splint main.c" id="fig:012" style="width:70.0%" /><figcaption>splint main.c</figcaption>
+</figure>
+<h1 id="результаты">Результаты</h1>
+<h2 id="вывод">Вывод:</h2>
+<p>В ходе выполнения лабораторной работы я приобрел простейшие навыки разработки и отладки приложений в ОС типа UNIX/Linux на примере создания на языке С калькулятора с простейшими функциями.</p>
