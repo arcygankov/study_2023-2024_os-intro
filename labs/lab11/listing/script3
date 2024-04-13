@@ -1,0 +1,6 @@
+echo "write the len of phrase_"
+read len
+echo "write a kol-vo of phrase"
+read kol
+echo "random phrase:"
+cat /dev/urandom | tr -dc "a-zA-Z" | fold -w $len | head -n $kol

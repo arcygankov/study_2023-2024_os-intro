@@ -1,0 +1,18 @@
+lockfile="./locking.file"
+exec {fn}>$lockfile
+if test -f "$lockfile"
+then
+	while [ 1!=0 ]
+	do
+		if flock -n ${fn}
+		then
+			echo "file lock"
+			sleep 5
+			echo "unlock"
+			flock -u ${fn}
+		else
+			echo "file was lock"
+			sleep 1
+		fi
+	done
+fi
